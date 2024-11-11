@@ -18,11 +18,11 @@ The first problem of vivino website using Selenium was to fully load the wine li
 When navigating the website I was not able to find a Json file with most of the info, this is because you get such file only after you start scrolling to the end of the first page. We now have a huge dictionary containing all details about a wine, even if some information in such dictionary are not displayed in the page you are looking.
 
 # Tables that will be created from this code
-vintage (this is the main table)
-region_most_used_grapes
-flavor
-flavor_primary_keywords
-flavor_secondary_keywords
-prices
-food
-grapes
+- vintage (this is the main table)
+- region_most_used_grapes
+- flavor
+  - flavor_primary_keywords
+  - flavor_secondary_keywords
+- prices
+- food
+- grapes
